@@ -52,4 +52,5 @@ fastboot boot out/target/product/davinci/recovery.img
 ## Other Sources
 
 Precompiled stock kernel
-## Thanks
+## Thanks GeopJr - https://github.com/GeopJr
+
