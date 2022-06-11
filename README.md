@@ -53,4 +53,3 @@ fastboot boot out/target/product/davinci/recovery.img
 
 Precompiled stock kernel
 ## Thanks
-# orangefox_device_xiaomi_davinci
