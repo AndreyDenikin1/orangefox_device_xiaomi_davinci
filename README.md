@@ -1,4 +1,3 @@
-# android_device_xiaomi_davinci
 For building TWRP for Xiaomi Redmi K20 / Mi 9T
 
 TWRP device tree for Xiaomi Redmi K20 / Mi 9T
@@ -41,7 +40,7 @@ Finally execute these:
 ```
 . build/envsetup.sh
 lunch omni_davinci-eng
-mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
+mka recoveryimage
 ```
 
 To test it:
