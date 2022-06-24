@@ -1,7 +1,5 @@
 For building TWRP for Xiaomi Redmi K20 / Mi 9T
 
-TWRP device tree for Xiaomi Redmi K20 / Mi 9T
-
 ## Features
 
 Works:
@@ -50,7 +48,3 @@ fastboot boot out/target/product/davinci/recovery.img
 ```
 
 ## Other Sources
-
-Precompiled stock kernel
-## Thanks GeopJr - https://github.com/GeopJr
-
