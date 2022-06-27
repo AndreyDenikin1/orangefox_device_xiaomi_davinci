@@ -18,7 +18,6 @@
 PRODUCT_RELEASE_NAME := davinci
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -44,10 +43,6 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
-    libion \
-    libxml2 \
-    libicuuc
+    libion
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libicuuc.so
+    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so

@@ -1,3 +1,4 @@
+# android_device_xiaomi_davinci
 For building TWRP for Xiaomi Redmi K20 / Mi 9T
 
 TWRP device tree for Xiaomi Redmi K20 / Mi 9T
@@ -13,12 +14,9 @@ Works:
 - Flashing (opengapps, roms, images and so on)
 - Backup/Restore (Needs more testing)
 - USB OTG
-- Android R Support
+- Android Sv2 Support
 - Vibration support
-
-To-do:
-
-- Decryption of /data (policy V2)
+- Decryption of /data (policy V1)
 
 ## Compile
 
@@ -48,3 +46,9 @@ To test it:
 ```
 fastboot boot out/target/product/davinci/recovery.img
 ```
+
+## Other Sources
+LineageOS kernel
+
+## Thanks
+@mauronofrio
